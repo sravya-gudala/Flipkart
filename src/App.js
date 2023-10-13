@@ -24,8 +24,8 @@ export default function App() {
           <Route path='/' element={<Sliders/>}/>
           <Route path='/' element={<Offers1/>}/>
 
-          <Route path='/' element={<Form/>}/>
-
+          <Route path='/Form' element={<Form/>}/>
+          <Route path='*' element={Error}/>
 
           </Routes>
         </div>
